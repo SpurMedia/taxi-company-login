@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="website icon" type="png" href="./img/taxi-app-concept_23-2148496604.png">
+</head>
+
+<body>
+
+    <!-- i place all element in a single div which i called the holder-->
+    <div class="holder">
+
+        <!--- this is the div containing the illustration image-->
+        <div class="illustration">
+            <img src="./img/taxi-app-concept-illustration_52683-36028.png">
+        </div>
+        
+
+        <!--- this is the form div, containing the input box for users log info. It also contains
+               two hyperlinks leading to different pages. The first page is the forgot pass word page,
+                while the second leads to the sign up page -->
+
+        <div class="form">
+        
+            <div>
+                <h3> Login</h3>
+            </div>
+        
+            <div>
+                <label for="username"> Username</label><br>
+                <input type="text" id="sername">
+            </div>
+        
+            <div>
+                <label for="password">Password</label><br>
+                <input type="password" id="password"> <br>
+
+                <input type="checkbox" id="boy"> 
+                <span> Keep me logged in</span> 
+            </div>
+        
+            <!-- here is the first hyperlink which would lead to the forgot password page-->
+            <div>
+                <a href="./pages/forgot password.html"> <span> Forget Password? </span></a>
+            </div>
+
+            <div class="log-in-button">
+                <button type="button"> Log in </button>    
+            </div>
+
+            <div>
+                <span> or </span>
+            </div>
+
+            <div class="extra-login-options">
+                <a href="#" class="social"><span><i class="fab fa-google fa-lg"></i></span></a>
+                <a href="#" class="social"><span><i class="fab fa-facebook-f fa-lg"></i></span></a>
+            </div>
+
+
+            <!-- here is the first hyperlink which would lead to the sign up page-->
+            <div class="sign-up-redirection">
+                <p> 
+                    <span>
+                         Don't have an account yet? 
+                        <a href="./pages/sign up.html"> Sign Up </a>
+                    </span> 
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
